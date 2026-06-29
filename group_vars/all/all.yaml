@@ -2,10 +2,10 @@ MONGODB_HOST: mongodb-{{ env }}.vnmurthy.online
 REDIS_HOST: redis-{{ env }}.vnmurthy.online
 MYSQL_HOST: mysql-{{ env }}.vnmurthy.online
 RABBITMQ_HOST: rabbitmq-{{ env }}.vnmurthy.online
-CATALOGUE_HOST: catalogue-{{ env }}.vnmurthy.online
-USER_HOST: user-{{ env }}.vnmurthy.online
-CART_HOST: cart-{{ env }}.vnmurthy.online
-SHIPPING_HOST: shipping-{{ env }}.vnmurthy.online
-PAYMENT_HOST: payment-{{ env }}.vnmurthy.online
+CATALOGUE_HOST: catalogue.backend-alb-{{ env }}.vnmurthy.online
+USER_HOST: user.backend-alb-{{ env }}.vnmurthy.online
+CART_HOST: cart.backend-alb-{{ env }}.vnmurthy.online
+SHIPPING_HOST: shipping.backend-alb-{{ env }}.vnmurthy.online
+PAYMENT_HOST: payment.backend-alb-{{ env }}.vnmurthy.online
 
 
